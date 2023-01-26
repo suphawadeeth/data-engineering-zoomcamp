@@ -24,7 +24,7 @@ Get your account ---> [https://cloud.google.com/](https://cloud.google.com/)
   - grant users access to this. (No need for now. This option is useful in case you work with team. This can grant many users to work on the same account), click done
 
 See, there's no key ID 
-  - click 3 dots on the right on that account
+  - click 3 dots on the right of that account
   - manage keys 
   - add keys, select JSON, click create
   - download box will pop up, click download into your directory
