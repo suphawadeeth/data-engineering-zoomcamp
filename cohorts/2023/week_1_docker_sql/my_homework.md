@@ -12,14 +12,11 @@ Note:
 (Learn in detail here https://www.youtube.com/watch?v=pTFZFxd4hOI)
 - Docker is a **platform** where you can **build** your application on it, then **run** it and also you can **ship** your application/code/program/data pipeline to other machines and it will consistently run it on the other machines that run Docker. It will function the same as it is on your machine. 
 - Plus point is that it won't interfere with any other system in the machine.
-- Your application will work on other machines even if it runs on a different software version, different configuration settings
-- Meaning if it works on your development machine, it will work on your test machine as well as your production machine
+- Your application will work on other machines even if it runs on a different software version, different configuration settings. Meaning if it works on your development machine, it will work on your test machine as well as your production machine
 - Magic line to run application on the machine is
 ```docker-compose up -d``` (need to setup your environment in **docker-compose.yml** file to run it ---> example below)
 
-- Now when you don't want that one application anymore
-- You tell Docker to remove it ```docker-compose down --rmi all```
-- And it will remove the application without interfering other environment
+- Now when you don't want that one application anymore. You tell Docker to remove it ```docker-compose down --rmi all``` And it will remove the application without interfering other environment
 (reference: https://www.youtube.com/watch?v=pTFZFxd4hOI)
 
 ## Install docker 
