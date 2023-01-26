@@ -33,7 +33,8 @@ Now on your terminal run ```docker --version``` to check your docker version.
 Or you can also check if you're connected to Docker hub by typing ```docker run hello-world``` and it will execute this hello-world image on your computer.
 If your terminal shows something else, you're probably not connected to Docker hub. 
 
-!! But first **make sure that you launch the Docker app and wait for the icon to show up on your status bar**`
+!! First, before you go over the install process again, 
+**make sure  you launch the Docker app and wait for the icon to show up on your status bar**
 
 ## Docker Tags
 ```docker --help```
