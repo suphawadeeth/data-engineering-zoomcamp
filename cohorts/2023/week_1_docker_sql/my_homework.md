@@ -10,9 +10,9 @@ Note:
 
 ### What is Docker? 
 (Learn in detail here https://www.youtube.com/watch?v=pTFZFxd4hOI)
-- Docker is a **platform** that you can **build** your application on it, then **run** it and also you can **ship** your application/code/program/data pipeline to other machines and it will consistantly run it on the other machines that run Docker. It will function the same as it is on your machine. 
-- Plus point is that it won't interfere any other system in the machine.
-- Your application will work on other machine even if it runs on a different software version, different configuration settings
+- Docker is a **platform** where you can **build** your application on it, then **run** it and also you can **ship** your application/code/program/data pipeline to other machines and it will consistently run it on the other machines that run Docker. It will function the same as it is on your machine. 
+- Plus point is that it won't interfere with any other system in the machine.
+- Your application will work on other machines even if it runs on a different software version, different configuration settings
 - Meaning if it works on your development machine, it will work on your test machine as well as your production machine
 - Magic line to run application on the machine is
 ```docker-compose up -d``` (need to setup your environment in **docker-compose.yml** file to run it ---> example below)
@@ -29,14 +29,14 @@ Download & install depends on your operating system
 
 Once installed, you **need to start docker engine** before working on building your application 
 - by click on a Docker app
-- when you see the Docker icon appear on the status bar, that means you're eady to go
+- when you see the Docker icon appear on the status bar, that means you're ready to go
 
 Now on your terminal run ```docker --version``` to check your docker version. 
 
 Or you can also check if you're connected to Docker hub by typing ```docker run hello-world``` and it will execute this hello-world image on your computer.
 If your terminal shows something else, you're probably not connected to Docker hub. 
 
-!! But first **make sure that you launch the Docker app and wait 'til the icon shows up on your status bar**`
+!! But first **make sure that you launch the Docker app and wait for the icon to show up on your status bar**`
 
 ## Docker Tags
 ```docker --help```
@@ -161,7 +161,7 @@ df_zone.to_sql(name="taxi_zone", con=engine, if_exists="replace")
 
 # Work with data on Postgresql 
 
-## First run docker-compose & setup network
+## First, run docker-compose & setup network
 **Create docker-compose.yml**:
 
 ```
